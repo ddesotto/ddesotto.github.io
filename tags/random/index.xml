@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>random on ddesotto\raw</title>
+    <title>Random on ddesotto\raw</title>
     <link>https://ddesotto.com/tags/random/</link>
-    <description>Recent content in random on ddesotto\raw</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Random on ddesotto\raw</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© ddesotto</copyright>
     <lastBuildDate>Tue, 15 Feb 2022 13:32:34 +0100</lastBuildDate>
@@ -14,7 +14,7 @@
       <link>https://ddesotto.com/posts/what-is-dust/</link>
       <pubDate>Tue, 15 Feb 2022 13:32:34 +0100</pubDate>
       <guid>https://ddesotto.com/posts/what-is-dust/</guid>
-      <description>A table is table, a chair is a chair, and a lamp is, indeed, a lamp. At least from a broad perspective. You are also describing a lamp when saying &amp;ldquo;an illuminating device, generally composed of a stand and a bulb&amp;rdquo; The stand and the bulb are as much lamp as the object itself, but at the same time, completely different entities.&#xA;The whole world is built by these types of constructions.</description>
+      <description>&lt;p&gt;A table is table, a chair is a chair, and a lamp is, indeed, a lamp. At least from a broad perspective. You are also describing a lamp when saying &amp;ldquo;an illuminating device, generally composed of a stand and a bulb&amp;rdquo; The stand and the bulb are as much lamp as the object itself, but at the same time, completely different entities.&lt;/p&gt;&#xA;&lt;p&gt;The whole world is built by these types of constructions. If stubborn to break an object down into its building blocks infinetly, you will eventually reach atoms, protons and even quarks.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

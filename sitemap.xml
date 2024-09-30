@@ -2,13 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ddesotto.com/posts/what-is-dust/</loc>
-    <lastmod>2022-02-15T13:32:34+01:00</lastmod>
-  </url><url>
     <loc>https://ddesotto.com/</loc>
-    <lastmod>2022-02-15T13:32:34+01:00</lastmod>
+    <lastmod>2024-09-24T21:50:56+02:00</lastmod>
+  </url><url>
+    <loc>https://ddesotto.com/posts/non-negotiables/</loc>
+    <lastmod>2024-09-24T21:50:56+02:00</lastmod>
   </url><url>
     <loc>https://ddesotto.com/posts/</loc>
+    <lastmod>2024-09-24T21:50:56+02:00</lastmod>
+  </url><url>
+    <loc>https://ddesotto.com/posts/what-is-dust/</loc>
     <lastmod>2022-02-15T13:32:34+01:00</lastmod>
   </url><url>
     <loc>https://ddesotto.com/tags/random/</loc>
@@ -29,7 +32,7 @@
     <loc>https://ddesotto.com/tags/onthings/</loc>
     <lastmod>2022-01-22T17:02:51+01:00</lastmod>
   </url><url>
-    <loc>https://ddesotto.com/tags/ddesotto-raw-the-blog/</loc>
+    <loc>https://ddesotto.com/tags/ddesotto-raw---the-blog/</loc>
     <lastmod>2022-01-05T13:21:14+01:00</lastmod>
   </url><url>
     <loc>https://ddesotto.com/posts/diegodesottoraw-thewhy/</loc>
