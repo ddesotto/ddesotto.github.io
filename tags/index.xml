@@ -7,35 +7,6 @@
     <generator>Hugo</generator>
     <language>en-us</language>
     <copyright>© ddesotto</copyright>
-    <lastBuildDate>Tue, 15 Feb 2022 13:32:34 +0100</lastBuildDate>
     <atom:link href="https://ddesotto.com/tags/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Random</title>
-      <link>https://ddesotto.com/tags/random/</link>
-      <pubDate>Tue, 15 Feb 2022 13:32:34 +0100</pubDate>
-      <guid>https://ddesotto.com/tags/random/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Crypto</title>
-      <link>https://ddesotto.com/tags/crypto/</link>
-      <pubDate>Sat, 22 Jan 2022 17:02:51 +0100</pubDate>
-      <guid>https://ddesotto.com/tags/crypto/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Onthings</title>
-      <link>https://ddesotto.com/tags/onthings/</link>
-      <pubDate>Sat, 22 Jan 2022 17:02:51 +0100</pubDate>
-      <guid>https://ddesotto.com/tags/onthings/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Ddesotto-Raw - The Blog</title>
-      <link>https://ddesotto.com/tags/ddesotto-raw---the-blog/</link>
-      <pubDate>Wed, 05 Jan 2022 13:21:14 +0100</pubDate>
-      <guid>https://ddesotto.com/tags/ddesotto-raw---the-blog/</guid>
-      <description></description>
-    </item>
   </channel>
 </rss>
