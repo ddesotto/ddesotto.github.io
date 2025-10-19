@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on ddesotto\raw</title>
+    <title>Posts on diego de sotto</title>
     <link>https://ddesotto.com/posts/</link>
-    <description>Recent content in Posts on ddesotto\raw</description>
-    <generator>Hugo</generator>
+    <description>Recent content in Posts on diego de sotto</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>© ddesotto</copyright>
-    <lastBuildDate>Tue, 24 Sep 2024 21:50:56 +0200</lastBuildDate>
+    <lastBuildDate></lastBuildDate>
     <atom:link href="https://ddesotto.com/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>My Non-Negotiables for life</title>
-      <link>https://ddesotto.com/posts/non-negotiables/</link>
-      <pubDate>Tue, 24 Sep 2024 21:50:56 +0200</pubDate>
-      <guid>https://ddesotto.com/posts/non-negotiables/</guid>
-      <description>&lt;p&gt;I turn 22 today. Nothing special about the age, but I do feel it&amp;rsquo;s a turning point.&lt;/p&gt;&#xA;&lt;p&gt;This last year was a year of broken plans. I should have graduated, I didn&amp;rsquo;t. I should have launched business, and I didn&amp;rsquo;t. I couldn&amp;rsquo;t even commit myself to surfing, and I live in an island.&lt;/p&gt;&#xA;&lt;p&gt;After some reflection, I have identified that behind all these failures is lack of structure. Hopping from trend, to novel idea, to weekend project is fun, but it has led me no where.&lt;/p&gt;</description>
-    </item>
   </channel>
 </rss>
