@@ -1,0 +1,20 @@
+# Diego de Sotto's Personal Blog
+
+> my personal blog by Diego de Sotto — long-form notes on machine learning, embeddings, and LLMs, plus a Goodreads-backed reading list and a career history.
+
+Every post is also available as clean Markdown by appending `.md` to its URL
+(e.g. `https://ddesotto.com/posts/<slug>.md`), and the whole blog is inlined at
+[https://ddesotto.com/llms-full.txt](https://ddesotto.com/llms-full.txt).
+
+## Posts
+
+
+## Pages
+
+- [Books](https://ddesotto.com/books): reading list, grouped by year
+- [Career](https://ddesotto.com/career): roles, education, and projects
+
+## Optional
+
+- [RSS feed](https://ddesotto.com/rss.xml): subscribe for new posts
+- [Sitemap](https://ddesotto.com/sitemap-index.xml): every URL on the site
