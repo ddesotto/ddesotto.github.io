@@ -1,4 +1,3 @@
 User-agent: *
 Allow: /
-
-Sitemap: https://ddesotto.com/sitemap.xml
+Sitemap: https://ddesotto.com/sitemap-index.xml
