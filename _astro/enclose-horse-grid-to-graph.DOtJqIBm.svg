@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 256" font-family="'Space Grotesk', system-ui, sans-serif">
+  <rect width="760" height="256" fill="#faf9f6"/>
+  <style>
+    .grass{ fill:#e8f5e4; stroke:#c4e2ba; stroke-width:2; }
+    .water{ fill:#cfe6f7; stroke:#8fbfe0; stroke-width:2; }
+    .em   { font-size:28px; }
+    .edge { stroke:#2b6cb0; stroke-width:2.5; }
+    .vtx  { fill:#fff; stroke:#222; stroke-width:2.5; }
+    .out  { stroke:#c0392b; stroke-width:2; stroke-dasharray:6 4; fill:none; }
+  </style>
+
+  <!-- LEFT: emoji board -->
+  <g transform="translate(80,44)">
+    <rect class="grass" x="0"  y="0"  width="52" height="52"/>
+    <rect class="grass" x="54" y="0"  width="52" height="52"/>
+    <rect class="water" x="108" y="0" width="52" height="52"/>
+    <rect class="grass" x="0"  y="54" width="52" height="52"/>
+    <rect class="grass" x="54" y="54" width="52" height="52"/>
+    <rect class="grass" x="108" y="54" width="52" height="52"/>
+    <rect class="grass" x="0"  y="108" width="52" height="52"/>
+    <rect class="grass" x="54" y="108" width="52" height="52"/>
+    <rect class="grass" x="108" y="108" width="52" height="52"/>
+    <text class="em" x="134" y="36" text-anchor="middle">💧</text>
+    <text class="em" x="80"  y="90" text-anchor="middle">🐴</text>
+  </g>
+
+  <!-- arrow -->
+  <path d="M270 130 H332" stroke="#999" stroke-width="2.5" fill="none"/>
+  <path d="M332 130 l-12 -7 v14 z" fill="#999"/>
+
+  <!-- RIGHT: graph -->
+  <g transform="translate(430,22)">
+    <rect class="out" x="16" y="16" width="204" height="204" rx="12"/>
+
+    <!-- border cells -> outside stubs -->
+    <g class="out">
+      <line x1="40" y1="40" x2="16" y2="40"/>
+      <line x1="40" y1="118" x2="16" y2="118"/>
+      <line x1="40" y1="196" x2="16" y2="196"/>
+      <line x1="118" y1="40" x2="118" y2="16"/>
+      <line x1="118" y1="196" x2="118" y2="220"/>
+      <line x1="196" y1="118" x2="220" y2="118"/>
+      <line x1="196" y1="196" x2="220" y2="196"/>
+    </g>
+
+    <!-- legal-move edges -->
+    <g class="edge">
+      <line x1="40" y1="40" x2="118" y2="40"/>
+      <line x1="40" y1="118" x2="118" y2="118"/>
+      <line x1="118" y1="118" x2="196" y2="118"/>
+      <line x1="40" y1="196" x2="118" y2="196"/>
+      <line x1="118" y1="196" x2="196" y2="196"/>
+      <line x1="40" y1="40" x2="40" y2="118"/>
+      <line x1="40" y1="118" x2="40" y2="196"/>
+      <line x1="118" y1="40" x2="118" y2="118"/>
+      <line x1="118" y1="118" x2="118" y2="196"/>
+      <line x1="196" y1="118" x2="196" y2="196"/>
+    </g>
+
+    <!-- removed water vertex (ghost) -->
+    <circle cx="196" cy="40" r="12" fill="none" stroke="#8fbfe0" stroke-width="2" stroke-dasharray="4 3"/>
+    <path d="M189 33 l14 14 M203 33 l-14 14" stroke="#8fbfe0" stroke-width="2"/>
+
+    <!-- ordinary vertices -->
+    <g class="vtx">
+      <circle cx="40" cy="40" r="12"/>
+      <circle cx="118" cy="40" r="12"/>
+      <circle cx="40" cy="118" r="12"/>
+      <circle cx="196" cy="118" r="12"/>
+      <circle cx="40" cy="196" r="12"/>
+      <circle cx="118" cy="196" r="12"/>
+      <circle cx="196" cy="196" r="12"/>
+    </g>
+
+    <!-- horse vertex, interior -->
+    <circle cx="118" cy="118" r="13" fill="#fff3d6" stroke="#c99a2e" stroke-width="3"/>
+  </g>
+</svg>

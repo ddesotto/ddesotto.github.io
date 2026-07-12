@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 286" font-family="'Space Grotesk', system-ui, sans-serif">
+  <rect width="760" height="286" fill="#faf9f6"/>
+  <style>
+    .grass{ fill:#e8f5e4; stroke:#cfe6c6; stroke-width:1.5; }
+    .in   { fill:#fff6d6; stroke:#e6cf7d; stroke-width:1.5; }
+    .wall { fill:#e7d3c4; stroke:#c9ad97; stroke-width:1.5; }
+    .em   { font-size:22px; }
+  </style>
+
+  <!-- ============ LEFT: cheapest fence ============ -->
+  <g transform="translate(78,24)">
+    <g class="grass">
+      <rect x="0" y="0" width="38" height="38"/><rect x="40" y="0" width="38" height="38"/><rect x="80" y="0" width="38" height="38"/><rect x="120" y="0" width="38" height="38"/><rect x="160" y="0" width="38" height="38"/><rect x="200" y="0" width="38" height="38"/>
+      <rect x="0" y="40" width="38" height="38"/><rect x="40" y="40" width="38" height="38"/><rect x="80" y="40" width="38" height="38"/><rect x="120" y="40" width="38" height="38"/><rect x="160" y="40" width="38" height="38"/><rect x="200" y="40" width="38" height="38"/>
+      <rect x="0" y="80" width="38" height="38"/><rect x="40" y="80" width="38" height="38"/><rect x="80" y="80" width="38" height="38"/><rect x="120" y="80" width="38" height="38"/><rect x="160" y="80" width="38" height="38"/><rect x="200" y="80" width="38" height="38"/>
+      <rect x="0" y="120" width="38" height="38"/><rect x="40" y="120" width="38" height="38"/><rect x="80" y="120" width="38" height="38"/><rect x="120" y="120" width="38" height="38"/><rect x="160" y="120" width="38" height="38"/><rect x="200" y="120" width="38" height="38"/>
+      <rect x="0" y="160" width="38" height="38"/><rect x="40" y="160" width="38" height="38"/><rect x="80" y="160" width="38" height="38"/><rect x="120" y="160" width="38" height="38"/><rect x="160" y="160" width="38" height="38"/><rect x="200" y="160" width="38" height="38"/>
+      <rect x="0" y="200" width="38" height="38"/><rect x="40" y="200" width="38" height="38"/><rect x="80" y="200" width="38" height="38"/><rect x="120" y="200" width="38" height="38"/><rect x="160" y="200" width="38" height="38"/><rect x="200" y="200" width="38" height="38"/>
+    </g>
+    <rect class="in" x="80" y="80" width="38" height="38"/>
+    <rect class="wall" x="80" y="40" width="38" height="38"/><text class="em" x="99" y="66" text-anchor="middle">🧱</text>
+    <rect class="wall" x="40" y="80" width="38" height="38"/><text class="em" x="59" y="106" text-anchor="middle">🧱</text>
+    <rect class="wall" x="120" y="80" width="38" height="38"/><text class="em" x="139" y="106" text-anchor="middle">🧱</text>
+    <rect class="wall" x="80" y="120" width="38" height="38"/><text class="em" x="99" y="146" text-anchor="middle">🧱</text>
+    <text class="em" x="99" y="106" text-anchor="middle">🐴</text>
+  </g>
+
+  <!-- ============ RIGHT: spend the budget ============ -->
+  <g transform="translate(462,24)">
+    <g class="grass">
+      <rect x="0" y="0" width="38" height="38"/><rect x="40" y="0" width="38" height="38"/><rect x="80" y="0" width="38" height="38"/><rect x="120" y="0" width="38" height="38"/><rect x="160" y="0" width="38" height="38"/><rect x="200" y="0" width="38" height="38"/>
+      <rect x="0" y="40" width="38" height="38"/><rect x="40" y="40" width="38" height="38"/><rect x="80" y="40" width="38" height="38"/><rect x="120" y="40" width="38" height="38"/><rect x="160" y="40" width="38" height="38"/><rect x="200" y="40" width="38" height="38"/>
+      <rect x="0" y="80" width="38" height="38"/><rect x="40" y="80" width="38" height="38"/><rect x="80" y="80" width="38" height="38"/><rect x="120" y="80" width="38" height="38"/><rect x="160" y="80" width="38" height="38"/><rect x="200" y="80" width="38" height="38"/>
+      <rect x="0" y="120" width="38" height="38"/><rect x="40" y="120" width="38" height="38"/><rect x="80" y="120" width="38" height="38"/><rect x="120" y="120" width="38" height="38"/><rect x="160" y="120" width="38" height="38"/><rect x="200" y="120" width="38" height="38"/>
+      <rect x="0" y="160" width="38" height="38"/><rect x="40" y="160" width="38" height="38"/><rect x="80" y="160" width="38" height="38"/><rect x="120" y="160" width="38" height="38"/><rect x="160" y="160" width="38" height="38"/><rect x="200" y="160" width="38" height="38"/>
+      <rect x="0" y="200" width="38" height="38"/><rect x="40" y="200" width="38" height="38"/><rect x="80" y="200" width="38" height="38"/><rect x="120" y="200" width="38" height="38"/><rect x="160" y="200" width="38" height="38"/><rect x="200" y="200" width="38" height="38"/>
+    </g>
+    <g class="in">
+      <rect x="40" y="40" width="38" height="38"/><rect x="80" y="40" width="38" height="38"/>
+      <rect x="40" y="80" width="38" height="38"/><rect x="80" y="80" width="38" height="38"/>
+      <rect x="40" y="120" width="38" height="38"/><rect x="80" y="120" width="38" height="38"/>
+    </g>
+    <g class="wall">
+      <rect x="40" y="0" width="38" height="38"/><rect x="80" y="0" width="38" height="38"/>
+      <rect x="40" y="160" width="38" height="38"/><rect x="80" y="160" width="38" height="38"/>
+      <rect x="0" y="40" width="38" height="38"/><rect x="0" y="80" width="38" height="38"/><rect x="0" y="120" width="38" height="38"/>
+      <rect x="120" y="40" width="38" height="38"/><rect x="120" y="80" width="38" height="38"/><rect x="120" y="120" width="38" height="38"/>
+    </g>
+    <g class="em">
+      <text x="59" y="26" text-anchor="middle">🧱</text><text x="99" y="26" text-anchor="middle">🧱</text>
+      <text x="59" y="186" text-anchor="middle">🧱</text><text x="99" y="186" text-anchor="middle">🧱</text>
+      <text x="19" y="66" text-anchor="middle">🧱</text><text x="19" y="106" text-anchor="middle">🧱</text><text x="19" y="146" text-anchor="middle">🧱</text>
+      <text x="139" y="66" text-anchor="middle">🧱</text><text x="139" y="106" text-anchor="middle">🧱</text><text x="139" y="146" text-anchor="middle">🧱</text>
+    </g>
+    <text class="em" x="59" y="66" text-anchor="middle">🐴</text>
+    <text class="em" x="99" y="146" text-anchor="middle">🍒</text>
+  </g>
+</svg>

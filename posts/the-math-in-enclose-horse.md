@@ -1,7 +1,3 @@
-# Diego de Sotto's Personal Blog — full content
-
-> my personal blog by Diego de Sotto. Source: https://ddesotto.com
-
 # The math in enclose.horse
 
 > What a game about trapping horses can teach you about graphs and optimization
@@ -150,4 +146,3 @@ Coming soon...
 - [dynomight, _Integer programming easily encloses horse_](https://dynomight.substack.com/p/horse)
 - [enclose.horse discussion on Tildes](https://tildes.net/~games/1s35/browser_puzzle_game_enclose_horse)
 - Ahuja, Magnanti, and Orlin, _Network Flows: Theory, Algorithms, and Applications_
-
