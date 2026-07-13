@@ -142,11 +142,18 @@ Now a walled bee is trapped on paper too: every path from it to $o$ crosses a wa
 
 ## Solving
 
-Coming soon...
+I implemented both models in Python with [Google OR-Tools](https://developers.google.com/optimization).
+
+The code is on GitHub: [ddesotto/enclose-horse-solver](https://github.com/ddesotto/enclose-horse-solver). It's a small CLI you can point at the puzzle url:
+
+```sh
+uv run enclose-horse https://enclose.horse/play/2026-07-12 --mode solve
+```
 
 ## References
 
 - [enclose.horse: How to Play](https://enclose.horse/)
+- [ddesotto/enclose-horse-solver](https://github.com/ddesotto/enclose-horse-solver) — the solver described in this post
 - [dynomight, _Integer programming easily encloses horse_](https://dynomight.substack.com/p/horse)
 - [enclose.horse discussion on Tildes](https://tildes.net/~games/1s35/browser_puzzle_game_enclose_horse)
 - Ahuja, Magnanti, and Orlin, _Network Flows: Theory, Algorithms, and Applications_
