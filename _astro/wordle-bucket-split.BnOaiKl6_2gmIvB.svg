@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 300" font-family="'Space Grotesk', system-ui, sans-serif">
+  <rect width="760" height="300" fill="#faf9f6"/>
+  <style>
+    .good  { fill:#6aaa64; }
+    .weak  { fill:#b7bbb6; }
+    .big   { fill:#787c7e; }
+    .base  { stroke:#c8cac6; stroke-width:2; }
+    .ttl   { font-size:15px; font-weight:700; }
+    .sub   { font-size:12px; fill:#787c7e; }
+  </style>
+
+  <!-- LEFT: high entropy, many even buckets -->
+  <text class="ttl" x="55" y="34" fill="#6aaa64">high entropy</text>
+  <text class="sub" x="55" y="52">many small, even buckets — few words survive</text>
+  <line class="base" x1="50" y1="250" x2="360" y2="250"/>
+  <rect class="good" x="55"  y="190" width="18" height="60"/>
+  <rect class="good" x="80"  y="196" width="18" height="54"/>
+  <rect class="good" x="105" y="188" width="18" height="62"/>
+  <rect class="good" x="130" y="194" width="18" height="56"/>
+  <rect class="good" x="155" y="186" width="18" height="64"/>
+  <rect class="good" x="180" y="198" width="18" height="52"/>
+  <rect class="good" x="205" y="191" width="18" height="59"/>
+  <rect class="good" x="230" y="185" width="18" height="65"/>
+  <rect class="good" x="255" y="195" width="18" height="55"/>
+  <rect class="good" x="280" y="189" width="18" height="61"/>
+  <rect class="good" x="305" y="193" width="18" height="57"/>
+  <rect class="good" x="330" y="187" width="18" height="63"/>
+
+  <!-- RIGHT: low entropy, one bucket dominates -->
+  <text class="ttl" x="410" y="34" fill="#787c7e">low entropy</text>
+  <text class="sub" x="410" y="52">one giant bucket — you learn almost nothing</text>
+  <line class="base" x1="405" y1="250" x2="715" y2="250"/>
+  <rect class="big"  x="430" y="60"  width="48" height="190"/>
+  <rect class="weak" x="530" y="232" width="18" height="18"/>
+  <rect class="weak" x="558" y="238" width="18" height="12"/>
+  <rect class="weak" x="586" y="234" width="18" height="16"/>
+  <rect class="weak" x="614" y="240" width="18" height="10"/>
+  <rect class="weak" x="642" y="236" width="18" height="14"/>
+</svg>

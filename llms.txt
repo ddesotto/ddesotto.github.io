@@ -9,6 +9,7 @@ Every post is also available as clean Markdown by appending `.md` to its URL
 ## Posts
 
 - [The math in enclose.horse](https://ddesotto.com/posts/the-math-in-enclose-horse.md): What a game about trapping horses can teach you about graphs and optimization
+- [The right way to play Wordle](https://ddesotto.com/posts/the-right-way-to-play-wordle.md): 
 
 ## Pages
 
