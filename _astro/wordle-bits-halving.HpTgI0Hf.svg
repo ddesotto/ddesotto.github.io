@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 260" font-family="'Space Grotesk', system-ui, sans-serif">
+  <rect width="760" height="260" fill="#faf9f6"/>
+  <style>
+    .ghost { fill:#e7e8e6; stroke:#d5d7d3; stroke-width:1.5; }
+    .live  { fill:#6aaa64; }
+    .bits  { font-size:15px; fill:#6aaa64; font-weight:700; }
+    .cnt   { font-size:13px; fill:#3a3d39; font-weight:600; }
+    .axis  { font-size:12px; fill:#787c7e; }
+  </style>
+
+  <!-- row 0 -->
+  <text class="bits" x="104" y="52" text-anchor="end">0 bits</text>
+  <rect class="ghost" x="120" y="30" width="460" height="34"/>
+  <rect class="live"  x="120" y="30" width="460" height="34"/>
+  <text class="cnt" x="350" y="52" text-anchor="middle" fill="#fff">2,315 words</text>
+
+  <!-- row 1 -->
+  <text class="bits" x="104" y="106" text-anchor="end">1 bit</text>
+  <rect class="ghost" x="120" y="84" width="460" height="34"/>
+  <rect class="live"  x="120" y="84" width="230" height="34"/>
+  <text class="cnt" x="362" y="106">≈ 1,158</text>
+
+  <!-- row 2 -->
+  <text class="bits" x="104" y="160" text-anchor="end">2 bits</text>
+  <rect class="ghost" x="120" y="138" width="460" height="34"/>
+  <rect class="live"  x="120" y="138" width="115" height="34"/>
+  <text class="cnt" x="247" y="160">≈ 579</text>
+
+  <!-- row 3 -->
+  <text class="bits" x="104" y="214" text-anchor="end">3 bits</text>
+  <rect class="ghost" x="120" y="192" width="460" height="34"/>
+  <rect class="live"  x="120" y="192" width="58" height="34"/>
+  <text class="cnt" x="190" y="214">≈ 289</text>
+
+  <text class="axis" x="120" y="244">each bit halves the words still in play</text>
+</svg>
